@@ -768,7 +768,6 @@ endif()
 
 install(EXPORT "${PROJECT_NAME}-targets"
         DESTINATION "${CMAKE_INSTALL_LIBDIR}/${PROJECT_NAME}/cmake/${TARGET_DIR}"
-        NAMESPACE AWS::
         COMPONENT Development)
 
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config.cmake"
